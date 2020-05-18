@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  name="viewport" content="with=device-width,initial-scale=1,user-scalable=no">
+    <title>登录</title>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(244,244,246);
+        }
+        header{
+            background-color: rgb(40,133,202);
+            text-align: center;
+            font-size: 18px;
+            line-height:44px;
+            color: white;
+        }
+        button{
+            margin-top: 10px;
+            width: 90%;
+            height: 60px;
+            font-size: 30px;
+            color: white;
+            background-color: rgb(26,69,146);
+            border-radius: 5px;
+        }
+        .box1{
+            display: flex;
+            width: 100%;
+            height:200px;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            width: 100%;
+        }
+
+        .L_login{
+            width: 90%;
+            height: 80px;
+            border: 2px solid #cccccc;
+            border-radius: 5px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .son1{
+            font-size:23px;
+            height: 40px;
+            line-height: 40px;
+            border-bottom:2px solid #cccccc;
+            padding-left: 15px;
+
+        }
+        .san2{
+            font-size: 23px;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 15px;
+        }
+        .L_login input{
+            outline: medium;
+            border: none;
+            height: 25px;
+            vertical-align: middle;
+        }
+
+
+        .L_login_div input{
+            font-size: 30px;
+            line-height: 50px;
+            color: white;
+            height: 50px;
+            background-color:  rgb(36,92,161);
+            border: none;
+
+        }
+        .div5{
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <span>登录</span>
+</header>
+<div class="box1">
+    <div>
+        <img src="Resource/head.png" alt="">
+    </div>
+</div>
+<div class="box2">
+    <div class="L_login">
+        <div class="son1">
+            <form action="">
+                <span>账号名：</span><input id="L_account" type="text" >
+            </form>
+        </div>
+        <div class="san2">
+            <form action="">
+                <sapn>密码：</sapn><input id="L_pwd" type="password">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="div5">
+    <button onclick="ax()">登录</button>
+</div>
+
+</body>
+</html>
